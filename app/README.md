@@ -1,6 +1,14 @@
 # App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.0.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.0. But developed using Angular 16.<br>
+
+Key Points:<br>
+canDeactivate works only when navigating via Angular's Router (i.e., using routerLink or router.navigate() in code).<br>
+It does NOT work for:<br>
+
+Browser back/forward buttons<br>
+Manually typing a new URL<br>
+Closing the tab/window<br>
 
 ## Development server
 
